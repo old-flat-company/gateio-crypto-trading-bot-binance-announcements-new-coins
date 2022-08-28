@@ -9,6 +9,7 @@ import time
 import requests
 from gate_api import ApiClient
 from gate_api import SpotApi
+from gate_api import MarginApi
 
 import gateio_new_coins_announcements_bot.globals as globals
 from gateio_new_coins_announcements_bot.auth.gateio_auth import load_gateio_creds
@@ -19,8 +20,10 @@ from gateio_new_coins_announcements_bot.store_order import load_order
 config = load_config("config.yml")
 client = load_gateio_creds("auth/auth.yml")
 spot_api = SpotApi(ApiClient(client))
+margin_api = MarginApi(ApiClient(client))
 
 supported_currencies = None
+supported_cross_margin_currencies = None
 
 previously_found_coins = set()
 
@@ -218,6 +221,31 @@ def get_all_currencies(single=False):
                     break
     else:
         logger.info("while loop in get_all_currencies() has stopped.")
+def get_all_cross_margin_currencies(single=False):
+    """
+    Get a list of all cross margin currencies supported on gate io
+    :return:
+    """
+    global supported_cross_margin_currencies
+    while not globals.stop_threads:
+        logger.info("Getting the list of supported  cross margin currencies from gate io")
+        all_cross_margin_currencies = ast.literal_eval(str(margin_api.list_cross_margin_currencies()))
+        cross_margin_currency_list = [currency["name"] for currency in all_cross_margin_currencies]
+        with open("cross_margin_currencies.json", "w") as f:
+            json.dump(cross_margin_currency_list, f, indent=4)
+            logger.info(
+                "List of gate io cross margin currencies saved to cross_margin_currencies.json. Waiting 5 " "minutes before refreshing list..."
+            )
+        supported_cross_margin_currencies = cross_margin_currency_list
+        if single:
+            return supported_cross_margin_currencies
+        else:
+            for x in range(300):
+                time.sleep(1)
+                if globals.stop_threads:
+                    break
+    else:
+        logger.info("while loop in get_all_cross_margin_currencies has stopped.")
 
 
 def load_old_coins():

@@ -7,7 +7,7 @@ from datetime import datetime
 import gateio_new_coins_announcements_bot.globals as globals
 from gateio_new_coins_announcements_bot.load_config import load_config
 from gateio_new_coins_announcements_bot.logger import logger
-from gateio_new_coins_announcements_bot.new_listings_scraper import get_all_currencies
+from gateio_new_coins_announcements_bot.new_listings_scraper import get_all_currencies, get_all_cross_margin_currencies
 from gateio_new_coins_announcements_bot.new_listings_scraper import get_last_coin
 from gateio_new_coins_announcements_bot.new_listings_scraper import load_old_coins
 from gateio_new_coins_announcements_bot.new_listings_scraper import search_and_update
@@ -46,6 +46,11 @@ else:
 logger.debug("Starting get_all_currencies")
 supported_currencies = get_all_currencies(single=True)
 logger.debug("Finished get_all_currencies")
+#----------------------------------------
+logger.debug("Starting get_all_cross_margin_currencies")
+supported_cross_margin_currencies = get_all_cross_margin_currencies(single=True)
+logger.debug("Finished get_all_cross_margin_currencies")
+
 
 logger.info("new-coin-bot online", extra={"TELEGRAM": "STARTUP"})
 
@@ -487,7 +492,9 @@ def main():
         logger.info("!!! LIVE MODE !!!")
 
     t_get_currencies_thread = threading.Thread(target=get_all_currencies)
+    t_get_cross_margin_currencies_thread = threading.Thread(target=get_all_cross_margin_currencies)
     t_get_currencies_thread.start()
+    t_get_cross_margin_currencies_thread.start()
     t_buy_thread = threading.Thread(target=buy)
     t_buy_thread.start()
     t_sell_thread = threading.Thread(target=sell)
@@ -501,6 +508,7 @@ def main():
         globals.buy_ready.set()
         globals.sell_ready.set()
         t_get_currencies_thread.join()
+        t_get_cross_margin_currencies_thread.join()
         t_buy_thread.join()
         t_sell_thread.join()
 
