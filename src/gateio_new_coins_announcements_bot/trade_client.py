@@ -3,12 +3,14 @@ from datetime import datetime
 from gate_api import ApiClient
 from gate_api import Order
 from gate_api import SpotApi
+from gate_api import MarginApi
 
 from gateio_new_coins_announcements_bot.auth.gateio_auth import load_gateio_creds
 from gateio_new_coins_announcements_bot.logger import logger
 
 client = load_gateio_creds("auth/auth.yml")
 spot_api = SpotApi(ApiClient(client))
+margin_api = MarginApi(ApiClient(client))
 
 last_trade = None
 
@@ -55,26 +57,42 @@ def get_min_amount(base, quote):
         return min_amount
 
 
-def place_order(base, quote, amount, side, last_price):
+def place_order(base, quote, amount, side, last_price,cross_margin=False):
     """
     Args:
     'DOT', 'USDT', 50, 'buy', 400
     """
     try:
-        order = Order(
-            amount=str(float(amount) / float(last_price)),
-            price=last_price,
-            side=side,
-            currency_pair=f"{base}_{quote}",
-            time_in_force="ioc",
-        )
-        order = spot_api.create_order(order)
+        if not cross_margin:
+            order = Order(
+                amount=str(float(amount) / float(last_price)),
+                price=last_price,
+                side=side,
+                currency_pair=f"{base}_{quote}",
+                time_in_force="ioc"
+            )
+            order = spot_api.create_order(order)
+        elif cross_margin: # if we have an opportunity to  create  a cross margin  order to current coin pair
+            order = Order(
+                amount=str(float(amount) / float(last_price)),
+                price=last_price,
+                side=side,
+                currency_pair=f"{base}_{quote}",
+                time_in_force="ioc",
+                type='limit',
+                account='cross_margin',
+                auto_borrow=True,
+                auto_repay=True
+            )
+            order = margin_api.create_cross_margin_loan(order)
+
         t = order
         logger.info(
             f"PLACE ORDER: {t.side} | {t.id} | {t.account} | {t.type} | {t.currency_pair} | {t.status} | "
             f"amount={t.amount} | price={t.price} | left={t.left} | filled_total={t.filled_total} | "
             f"fill_price={t.fill_price} | fee={t.fee} {t.fee_currency}"
         )
+
     except Exception as e:
         logger.error(e)
         raise

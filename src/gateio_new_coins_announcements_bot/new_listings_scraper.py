@@ -24,6 +24,8 @@ margin_api = MarginApi(ApiClient(client))
 
 supported_currencies = None
 supported_cross_margin_currencies = None
+cross_margin_currency_leverage_list = None
+
 
 previously_found_coins = set()
 
@@ -221,6 +223,8 @@ def get_all_currencies(single=False):
                     break
     else:
         logger.info("while loop in get_all_currencies() has stopped.")
+
+
 def get_all_cross_margin_currencies(single=False):
     """
     Get a list of all cross margin currencies supported on gate io
@@ -248,6 +252,45 @@ def get_all_cross_margin_currencies(single=False):
         logger.info("while loop in get_all_cross_margin_currencies has stopped.")
 
 
+def get_all_cross_margin_pairs_leverage(single=False, pairing='USDT'):
+    """
+    Get a list of leverages  for all cross margin currencies  pairs  with pairing (by default USDT) supported on gate io
+    :return:
+    """
+    global cross_margin_currency_leverage_list
+
+    while not globals.stop_threads:
+        logger.info(
+            "Getting the list of leverages for all cross margin currencies  pairs  with pairing (by default USDT) supported on gate io")
+        margin_currency_pairs = ast.literal_eval(str(margin_api.list_margin_currency_pairs()))
+        cross_margin_currency_leverage = ['{0} {1}'.format(pair['id'], pair['leverage']) for pair in
+                                          margin_currency_pairs if pair['id'].split('_')[1] == pairing]
+        out_file_name = "cross_margin_currency_leverage_with_pairing_{0}.json".format(pairing)
+        with open(out_file_name, "w") as f:
+            json.dump(cross_margin_currency_leverage, f, indent=4)
+            logger.info(
+                '''List of leverages for all cross margin currencies pairs 
+                   with pairing (by default USDT) saved to {0}. 
+                   Waiting 5 minutes before refreshing list...'''.format(
+                    out_file_name)
+            )
+        cross_margin_currency_leverage_list = cross_margin_currency_leverage
+        if single:
+            return cross_margin_currency_leverage_list
+        else:
+            for x in range(300):
+                time.sleep(1)
+                if globals.stop_threads:
+                    break
+    else:
+        logger.info("while loop in get_all_cross_margin_pairs_leverage.")
+
+
+
+
+
+
+
 def load_old_coins():
     if os.path.isfile("old_coins.json"):
         with open("old_coins.json") as json_file:
@@ -262,3 +305,7 @@ def store_old_coins(old_coin_list):
     with open("old_coins.json", "w") as f:
         json.dump(old_coin_list, f, indent=2)
         logger.debug("Wrote old_coins to file")
+
+
+
+
