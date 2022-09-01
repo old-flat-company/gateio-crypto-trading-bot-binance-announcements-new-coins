@@ -133,18 +133,15 @@ def get_last_coin():
 
         # if the latest Binance announcement is not a new coin listing,
         # or the listing has already been returned, check kucoin
-        if (
-            config["TRADE_OPTIONS"]["KUCOIN_ANNOUNCEMENTS"]
-            and "Gets Listed" in kucoin_announcement
-            and kucoin_coin[0] != globals.latest_listing
-            and kucoin_coin[0] not in previously_found_coins
-        ):
-            if len(kucoin_coin) == 1:
-                uppers = kucoin_coin[0]
-                previously_found_coins.add(uppers)
-                logger.info("New Kucoin coin detected: " + uppers)
-            if len(kucoin_coin) != 1:
-                uppers = None
+        if config["TRADE_OPTIONS"]["KUCOIN_ANNOUNCEMENTS"] and "Gets Listed" in kucoin_announcement:
+            if len(kucoin_coin) >= 1:
+                if kucoin_coin[0] != globals.latest_listing and kucoin_coin[0] not in previously_found_coins:
+                    if len(kucoin_coin) == 1:
+                        uppers = kucoin_coin[0]
+                        previously_found_coins.add(uppers)
+                        logger.info("New Kucoin coin detected: " + uppers)
+                    if len(kucoin_coin) != 1:
+                        uppers = None
 
     else:
         if len(found_coin) == 1:
