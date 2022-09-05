@@ -72,7 +72,7 @@ def get_cross_margin_data(base='', quote='USDT'):
     try:
         data_file_name = "cross_margin_currency_leverage_with_pairing_{0}.json".format(quote)
         with open(data_file_name) as json_file:
-            leverage, max_quote_amount = get_core_cross_margin_data(base='', quote='USDT',
+            leverage, max_quote_amount = get_core_cross_margin_data(base=base, quote=quote,
                                                                     data_list=json.load(json_file))
             # for data_dict in json.load(json_file):
             #     if data_dict:
@@ -80,7 +80,7 @@ def get_cross_margin_data(base='', quote='USDT'):
             #             return data_dict['leverage'], data_dict['max_quote_amount']
 
             if not leverage and not max_quote_amount:
-                leverage, max_quote_amount = get_core_cross_margin_data(base='', quote='USDT',
+                leverage, max_quote_amount = get_core_cross_margin_data(base=base, quote=quote,
                                                                         data_list=get_all_cross_margin_pairs_leverage(
                                                                             quote=quote))
             return leverage, max_quote_amount
@@ -98,7 +98,7 @@ def get_cross_margin_amount(base='', quote='USDT', amount=None, last_price=None)
     leverage, max_quote_amount = get_cross_margin_data(base=base, quote=quote)
     # core_amount = float(amount) / float(last_price)
     borrow_amount = (leverage - 1) * float(amount)
-    borrow_amount = max_quote_amount if borrow_amount > float(max_quote_amount) else borrow_amount
+    borrow_amount = float(max_quote_amount) if borrow_amount > float(max_quote_amount) else borrow_amount
     return (float(amount)+borrow_amount)/float(last_price)
 
 
@@ -118,36 +118,36 @@ def place_order(base, quote, amount, side, last_price, account_type=''):
             )
             order = spot_api.create_order(order)
         elif account_type == 'cross_margin':  # if we have an opportunity to  create  a cross margin  order to current coin pair
-            if side == 'buy':
-                order = Order(
-                    # amount=str(float(amount) / float(last_price)),
-                    amount=get_cross_margin_amount(base=base, quote=quote,
-                                                   amount=float(amount), last_price=float(last_price)),
-                    price=last_price,
-                    side='buy',
-                    currency_pair=f"{base}_{quote}",
-                    time_in_force="ioc",
-                    type='limit',
-                    account='cross_margin',
-                    auto_borrow=True,
-                    auto_repay=False
-                )
-            if side == 'sell':
-                order = Order(
-                    # amount=str(float(amount) / float(last_price)),
-                    amount=get_cross_margin_amount(base=base, quote=quote,
-                                                   amount=float(amount), last_price=float(last_price)),
-                    price=last_price,
-                    side='sell',
-                    currency_pair=f"{base}_{quote}",
-                    time_in_force="ioc",
-                    type='limit',
-                    account='cross_margin',
-                    auto_borrow=False,
-                    auto_repay=True
-                )
-
-            order = margin_api.create_cross_margin_loan(order)
+            amount = get_cross_margin_amount(base=base, quote=quote,
+                                             amount=float(amount), last_price=float(last_price)),
+            if amount:
+                if side == 'buy':
+                    order = Order(
+                        # amount=str(float(amount) / float(last_price)),
+                        amount=amount,
+                        price=last_price,
+                        side='buy',
+                        currency_pair=f"{base}_{quote}",
+                        time_in_force="ioc",
+                        type='limit',
+                        account='cross_margin',
+                        auto_borrow=True,
+                        auto_repay=False
+                    )
+                if side == 'sell':
+                    order = Order(
+                        # amount=str(float(amount) / float(last_price)),
+                        amount=amount,
+                        price=last_price,
+                        side='sell',
+                        currency_pair=f"{base}_{quote}",
+                        time_in_force="ioc",
+                        type='limit',
+                        account='cross_margin',
+                        auto_borrow=False,
+                        auto_repay=True
+                    )
+                order = margin_api.create_cross_margin_loan(order)
 
         t = order
         logger.info(

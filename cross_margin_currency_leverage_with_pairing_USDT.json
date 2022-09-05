@@ -1,0 +1,2227 @@
+[
+    {
+        "pair": "ERN_USDT",
+        "leverage": 3,
+        "max_quote_amount": "2000.0"
+    },
+    {
+        "pair": "T_USDT",
+        "leverage": 3,
+        "max_quote_amount": "2000.0"
+    },
+    {
+        "pair": "CEEK_USDT",
+        "leverage": 3,
+        "max_quote_amount": "40000.0"
+    },
+    {
+        "pair": "OGN_USDT",
+        "leverage": 3,
+        "max_quote_amount": "2000.0"
+    },
+    {
+        "pair": "QNT_USDT",
+        "leverage": 3,
+        "max_quote_amount": "2000.0"
+    },
+    {
+        "pair": "WOZX_USDT",
+        "leverage": 3,
+        "max_quote_amount": "2000.0"
+    },
+    {
+        "pair": "ZEE_USDT",
+        "leverage": 3,
+        "max_quote_amount": "2000.0"
+    },
+    {
+        "pair": "FUN_USDT",
+        "leverage": 3,
+        "max_quote_amount": "2000.0"
+    },
+    {
+        "pair": "FLM_USDT",
+        "leverage": 3,
+        "max_quote_amount": "2000.0"
+    },
+    {
+        "pair": "BOND_USDT",
+        "leverage": 3,
+        "max_quote_amount": "2000.0"
+    },
+    {
+        "pair": "TARA_USDT",
+        "leverage": 3,
+        "max_quote_amount": "2000.0"
+    },
+    {
+        "pair": "TRX_USDT",
+        "leverage": 5,
+        "max_quote_amount": "400000.0"
+    },
+    {
+        "pair": "OXY_USDT",
+        "leverage": 3,
+        "max_quote_amount": "2000.0"
+    },
+    {
+        "pair": "LON_USDT",
+        "leverage": 3,
+        "max_quote_amount": "2000.0"
+    },
+    {
+        "pair": "DOGE_USDT",
+        "leverage": 10,
+        "max_quote_amount": "3000000.0"
+    },
+    {
+        "pair": "ISP_USDT",
+        "leverage": 3,
+        "max_quote_amount": "2000.0"
+    },
+    {
+        "pair": "TWT_USDT",
+        "leverage": 3,
+        "max_quote_amount": "2000.0"
+    },
+    {
+        "pair": "BAO_USDT",
+        "leverage": 3,
+        "max_quote_amount": "2000.0"
+    },
+    {
+        "pair": "QUACK_USDT",
+        "leverage": 3,
+        "max_quote_amount": "2000.0"
+    },
+    {
+        "pair": "ANT_USDT",
+        "leverage": 3,
+        "max_quote_amount": "2000.0"
+    },
+    {
+        "pair": "VGX_USDT",
+        "leverage": 3,
+        "max_quote_amount": "2000.0"
+    },
+    {
+        "pair": "ARPA_USDT",
+        "leverage": 3,
+        "max_quote_amount": "2000.0"
+    },
+    {
+        "pair": "QUICK_USDT",
+        "leverage": 3,
+        "max_quote_amount": "2000.0"
+    },
+    {
+        "pair": "UTK_USDT",
+        "leverage": 3,
+        "max_quote_amount": "2000.0"
+    },
+    {
+        "pair": "HERO_USDT",
+        "leverage": 3,
+        "max_quote_amount": "2000.0"
+    },
+    {
+        "pair": "WSG_USDT",
+        "leverage": 3,
+        "max_quote_amount": "2000.0"
+    },
+    {
+        "pair": "BICO_USDT",
+        "leverage": 3,
+        "max_quote_amount": "2000.0"
+    },
+    {
+        "pair": "MTV_USDT",
+        "leverage": 3,
+        "max_quote_amount": "2000.0"
+    },
+    {
+        "pair": "VET_USDT",
+        "leverage": 3,
+        "max_quote_amount": "2000.0"
+    },
+    {
+        "pair": "GARI_USDT",
+        "leverage": 3,
+        "max_quote_amount": "40000.0"
+    },
+    {
+        "pair": "BCH_USDT",
+        "leverage": 10,
+        "max_quote_amount": "5000.0"
+    },
+    {
+        "pair": "KLAY_USDT",
+        "leverage": 3,
+        "max_quote_amount": "2000.0"
+    },
+    {
+        "pair": "WING_USDT",
+        "leverage": 3,
+        "max_quote_amount": "2000.0"
+    },
+    {
+        "pair": "BLOK_USDT",
+        "leverage": 3,
+        "max_quote_amount": "5000.0"
+    },
+    {
+        "pair": "SPS_USDT",
+        "leverage": 3,
+        "max_quote_amount": "2000.0"
+    },
+    {
+        "pair": "WIKEN_USDT",
+        "leverage": 3,
+        "max_quote_amount": "2000.0"
+    },
+    {
+        "pair": "WSIENNA_USDT",
+        "leverage": 3,
+        "max_quote_amount": "2000.0"
+    },
+    {
+        "pair": "PUNDIX_USDT",
+        "leverage": 3,
+        "max_quote_amount": "2000.0"
+    },
+    {
+        "pair": "FIC_USDT",
+        "leverage": 3,
+        "max_quote_amount": "2000.0"
+    },
+    {
+        "pair": "ASTR_USDT",
+        "leverage": 3,
+        "max_quote_amount": "40000.0"
+    },
+    {
+        "pair": "FET_USDT",
+        "leverage": 3,
+        "max_quote_amount": "2000.0"
+    },
+    {
+        "pair": "VELO_USDT",
+        "leverage": 3,
+        "max_quote_amount": "2000.0"
+    },
+    {
+        "pair": "BENQI_USDT",
+        "leverage": 3,
+        "max_quote_amount": "2000.0"
+    },
+    {
+        "pair": "CWEB_USDT",
+        "leverage": 3,
+        "max_quote_amount": "40000.0"
+    },
+    {
+        "pair": "RIF_USDT",
+        "leverage": 3,
+        "max_quote_amount": "2000.0"
+    },
+    {
+        "pair": "UNI_USDT",
+        "leverage": 5,
+        "max_quote_amount": "2000.0"
+    },
+    {
+        "pair": "ONG_USDT",
+        "leverage": 3,
+        "max_quote_amount": "0.0"
+    },
+    {
+        "pair": "ERG_USDT",
+        "leverage": 3,
+        "max_quote_amount": "2000.0"
+    },
+    {
+        "pair": "ALPHA_USDT",
+        "leverage": 3,
+        "max_quote_amount": "2000.0"
+    },
+    {
+        "pair": "CELO_USDT",
+        "leverage": 3,
+        "max_quote_amount": "2000.0"
+    },
+    {
+        "pair": "XVG_USDT",
+        "leverage": 3,
+        "max_quote_amount": "2000.0"
+    },
+    {
+        "pair": "GMAT_USDT",
+        "leverage": 3,
+        "max_quote_amount": "0.0"
+    },
+    {
+        "pair": "BTS_USDT",
+        "leverage": 3,
+        "max_quote_amount": "2000.0"
+    },
+    {
+        "pair": "DOCK_USDT",
+        "leverage": 3,
+        "max_quote_amount": "2000.0"
+    },
+    {
+        "pair": "GMT_USDT",
+        "leverage": 3,
+        "max_quote_amount": "40000.0"
+    },
+    {
+        "pair": "DIA_USDT",
+        "leverage": 3,
+        "max_quote_amount": "2000.0"
+    },
+    {
+        "pair": "CSPR_USDT",
+        "leverage": 3,
+        "max_quote_amount": "60000.0"
+    },
+    {
+        "pair": "NKN_USDT",
+        "leverage": 3,
+        "max_quote_amount": "2000.0"
+    },
+    {
+        "pair": "STAKE_USDT",
+        "leverage": 3,
+        "max_quote_amount": "2000.0"
+    },
+    {
+        "pair": "SWASH_USDT",
+        "leverage": 3,
+        "max_quote_amount": "2000.0"
+    },
+    {
+        "pair": "XEC_USDT",
+        "leverage": 3,
+        "max_quote_amount": "5000.0"
+    },
+    {
+        "pair": "SWRV_USDT",
+        "leverage": 3,
+        "max_quote_amount": "0.0"
+    },
+    {
+        "pair": "QRDO_USDT",
+        "leverage": 3,
+        "max_quote_amount": "2000.0"
+    },
+    {
+        "pair": "BLES_USDT",
+        "leverage": 3,
+        "max_quote_amount": "2000.0"
+    },
+    {
+        "pair": "EOS_USDT",
+        "leverage": 10,
+        "max_quote_amount": "6000000.0"
+    },
+    {
+        "pair": "GRT_USDT",
+        "leverage": 3,
+        "max_quote_amount": "2000.0"
+    },
+    {
+        "pair": "ASM_USDT",
+        "leverage": 3,
+        "max_quote_amount": "2000.0"
+    },
+    {
+        "pair": "FIL6_USDT",
+        "leverage": 3,
+        "max_quote_amount": "0.0"
+    },
+    {
+        "pair": "GNO_USDT",
+        "leverage": 3,
+        "max_quote_amount": "2000.0"
+    },
+    {
+        "pair": "EGLD_USDT",
+        "leverage": 3,
+        "max_quote_amount": "2000.0"
+    },
+    {
+        "pair": "XYM_USDT",
+        "leverage": 3,
+        "max_quote_amount": "2000.0"
+    },
+    {
+        "pair": "LOOKS_USDT",
+        "leverage": 3,
+        "max_quote_amount": "40000.0"
+    },
+    {
+        "pair": "LOKA_USDT",
+        "leverage": 3,
+        "max_quote_amount": "2000.0"
+    },
+    {
+        "pair": "BNC_USDT",
+        "leverage": 3,
+        "max_quote_amount": "2000.0"
+    },
+    {
+        "pair": "BAS_USDT",
+        "leverage": 3,
+        "max_quote_amount": "2000.0"
+    },
+    {
+        "pair": "SKL_USDT",
+        "leverage": 3,
+        "max_quote_amount": "2000.0"
+    },
+    {
+        "pair": "STMX_USDT",
+        "leverage": 3,
+        "max_quote_amount": "2000.0"
+    },
+    {
+        "pair": "CVC_USDT",
+        "leverage": 3,
+        "max_quote_amount": "2000.0"
+    },
+    {
+        "pair": "DDOS_USDT",
+        "leverage": 3,
+        "max_quote_amount": "2000.0"
+    },
+    {
+        "pair": "COTI_USDT",
+        "leverage": 3,
+        "max_quote_amount": "2000.0"
+    },
+    {
+        "pair": "AVA_USDT",
+        "leverage": 3,
+        "max_quote_amount": "2000.0"
+    },
+    {
+        "pair": "HMT_USDT",
+        "leverage": 3,
+        "max_quote_amount": "2000.0"
+    },
+    {
+        "pair": "DF_USDT",
+        "leverage": 3,
+        "max_quote_amount": "2000.0"
+    },
+    {
+        "pair": "LPT_USDT",
+        "leverage": 3,
+        "max_quote_amount": "2000.0"
+    },
+    {
+        "pair": "XRP_USDT",
+        "leverage": 10,
+        "max_quote_amount": "1000000.0"
+    },
+    {
+        "pair": "TVK_USDT",
+        "leverage": 3,
+        "max_quote_amount": "2000.0"
+    },
+    {
+        "pair": "FEVR_USDT",
+        "leverage": 3,
+        "max_quote_amount": "0.0"
+    },
+    {
+        "pair": "MBL_USDT",
+        "leverage": 3,
+        "max_quote_amount": "2000.0"
+    },
+    {
+        "pair": "KIN_USDT",
+        "leverage": 3,
+        "max_quote_amount": "2000.0"
+    },
+    {
+        "pair": "SPELL_USDT",
+        "leverage": 3,
+        "max_quote_amount": "2000.0"
+    },
+    {
+        "pair": "MATIC_USDT",
+        "leverage": 3,
+        "max_quote_amount": "400000.0"
+    },
+    {
+        "pair": "FTT_USDT",
+        "leverage": 3,
+        "max_quote_amount": "2000.0"
+    },
+    {
+        "pair": "NMR_USDT",
+        "leverage": 3,
+        "max_quote_amount": "2000.0"
+    },
+    {
+        "pair": "PMON_USDT",
+        "leverage": 3,
+        "max_quote_amount": "2000.0"
+    },
+    {
+        "pair": "BNB_USDT",
+        "leverage": 5,
+        "max_quote_amount": "2000000.0"
+    },
+    {
+        "pair": "USDD_USDT",
+        "leverage": 3,
+        "max_quote_amount": "40000.0"
+    },
+    {
+        "pair": "LSS_USDT",
+        "leverage": 3,
+        "max_quote_amount": "2000.0"
+    },
+    {
+        "pair": "MDX_USDT",
+        "leverage": 3,
+        "max_quote_amount": "2000.0"
+    },
+    {
+        "pair": "PRQ_USDT",
+        "leverage": 3,
+        "max_quote_amount": "2000.0"
+    },
+    {
+        "pair": "ALPINE_USDT",
+        "leverage": 3,
+        "max_quote_amount": "2000.0"
+    },
+    {
+        "pair": "DEGO_USDT",
+        "leverage": 3,
+        "max_quote_amount": "2000.0"
+    },
+    {
+        "pair": "OMI_USDT",
+        "leverage": 3,
+        "max_quote_amount": "2000.0"
+    },
+    {
+        "pair": "TIPS_USDT",
+        "leverage": 3,
+        "max_quote_amount": "2000.0"
+    },
+    {
+        "pair": "OCT_USDT",
+        "leverage": 3,
+        "max_quote_amount": "2000.0"
+    },
+    {
+        "pair": "FEI_USDT",
+        "leverage": 3,
+        "max_quote_amount": "2000.0"
+    },
+    {
+        "pair": "UMEE_USDT",
+        "leverage": 3,
+        "max_quote_amount": "2000.0"
+    },
+    {
+        "pair": "CRP_USDT",
+        "leverage": 3,
+        "max_quote_amount": "2000.0"
+    },
+    {
+        "pair": "LION_USDT",
+        "leverage": 3,
+        "max_quote_amount": "2000.0"
+    },
+    {
+        "pair": "YFI_USDT",
+        "leverage": 5,
+        "max_quote_amount": "2000.0"
+    },
+    {
+        "pair": "DASH_USDT",
+        "leverage": 3,
+        "max_quote_amount": "2000.0"
+    },
+    {
+        "pair": "REQ_USDT",
+        "leverage": 3,
+        "max_quote_amount": "2000.0"
+    },
+    {
+        "pair": "SDAO_USDT",
+        "leverage": 3,
+        "max_quote_amount": "5000.0"
+    },
+    {
+        "pair": "PNT_USDT",
+        "leverage": 3,
+        "max_quote_amount": "2000.0"
+    },
+    {
+        "pair": "INSUR_USDT",
+        "leverage": 3,
+        "max_quote_amount": "2000.0"
+    },
+    {
+        "pair": "OOKI_USDT",
+        "leverage": 3,
+        "max_quote_amount": "2000.0"
+    },
+    {
+        "pair": "SUN_USDT",
+        "leverage": 3,
+        "max_quote_amount": "5000.0"
+    },
+    {
+        "pair": "BAC_USDT",
+        "leverage": 3,
+        "max_quote_amount": "2000.0"
+    },
+    {
+        "pair": "DATA_USDT",
+        "leverage": 3,
+        "max_quote_amount": "2000.0"
+    },
+    {
+        "pair": "LRN_USDT",
+        "leverage": 3,
+        "max_quote_amount": "0.0"
+    },
+    {
+        "pair": "JGN_USDT",
+        "leverage": 3,
+        "max_quote_amount": "2000.0"
+    },
+    {
+        "pair": "KIMCHI_USDT",
+        "leverage": 3,
+        "max_quote_amount": "0.0"
+    },
+    {
+        "pair": "SUKU_USDT",
+        "leverage": 3,
+        "max_quote_amount": "2000.0"
+    },
+    {
+        "pair": "VRA_USDT",
+        "leverage": 3,
+        "max_quote_amount": "2000.0"
+    },
+    {
+        "pair": "AAVE_USDT",
+        "leverage": 5,
+        "max_quote_amount": "2000.0"
+    },
+    {
+        "pair": "FTI_USDT",
+        "leverage": 3,
+        "max_quote_amount": "2000.0"
+    },
+    {
+        "pair": "LDO_USDT",
+        "leverage": 3,
+        "max_quote_amount": "40000.0"
+    },
+    {
+        "pair": "FRA_USDT",
+        "leverage": 3,
+        "max_quote_amount": "2000.0"
+    },
+    {
+        "pair": "BLANK_USDT",
+        "leverage": 3,
+        "max_quote_amount": "0.0"
+    },
+    {
+        "pair": "NEAR_USDT",
+        "leverage": 3,
+        "max_quote_amount": "200000.0"
+    },
+    {
+        "pair": "ZKS_USDT",
+        "leverage": 3,
+        "max_quote_amount": "2000.0"
+    },
+    {
+        "pair": "MTRG_USDT",
+        "leverage": 3,
+        "max_quote_amount": "2000.0"
+    },
+    {
+        "pair": "RLY_USDT",
+        "leverage": 3,
+        "max_quote_amount": "2000.0"
+    },
+    {
+        "pair": "TCT_USDT",
+        "leverage": 3,
+        "max_quote_amount": "2000.0"
+    },
+    {
+        "pair": "FLY_USDT",
+        "leverage": 3,
+        "max_quote_amount": "2000.0"
+    },
+    {
+        "pair": "JST_USDT",
+        "leverage": 3,
+        "max_quote_amount": "20000.0"
+    },
+    {
+        "pair": "YFII_USDT",
+        "leverage": 3,
+        "max_quote_amount": "2000.0"
+    },
+    {
+        "pair": "AR_USDT",
+        "leverage": 3,
+        "max_quote_amount": "2000.0"
+    },
+    {
+        "pair": "POLY_USDT",
+        "leverage": 3,
+        "max_quote_amount": "2000.0"
+    },
+    {
+        "pair": "JULD_USDT",
+        "leverage": 3,
+        "max_quote_amount": "2000.0"
+    },
+    {
+        "pair": "SOL_USDT",
+        "leverage": 3,
+        "max_quote_amount": "240000.0"
+    },
+    {
+        "pair": "BZZ_USDT",
+        "leverage": 3,
+        "max_quote_amount": "2000.0"
+    },
+    {
+        "pair": "AXS_USDT",
+        "leverage": 3,
+        "max_quote_amount": "2000.0"
+    },
+    {
+        "pair": "ASD_USDT",
+        "leverage": 3,
+        "max_quote_amount": "2000.0"
+    },
+    {
+        "pair": "XMR_USDT",
+        "leverage": 3,
+        "max_quote_amount": "2000.0"
+    },
+    {
+        "pair": "FTM_USDT",
+        "leverage": 3,
+        "max_quote_amount": "5000.0"
+    },
+    {
+        "pair": "HIT_USDT",
+        "leverage": 3,
+        "max_quote_amount": "2000.0"
+    },
+    {
+        "pair": "LEO_USDT",
+        "leverage": 3,
+        "max_quote_amount": "2000.0"
+    },
+    {
+        "pair": "LIT_USDT",
+        "leverage": 3,
+        "max_quote_amount": "2000.0"
+    },
+    {
+        "pair": "PIG_USDT",
+        "leverage": 3,
+        "max_quote_amount": "2000.0"
+    },
+    {
+        "pair": "COMP_USDT",
+        "leverage": 3,
+        "max_quote_amount": "2000.0"
+    },
+    {
+        "pair": "ELON_USDT",
+        "leverage": 3,
+        "max_quote_amount": "2000.0"
+    },
+    {
+        "pair": "IMX_USDT",
+        "leverage": 3,
+        "max_quote_amount": "4000.0"
+    },
+    {
+        "pair": "EFI_USDT",
+        "leverage": 3,
+        "max_quote_amount": "2000.0"
+    },
+    {
+        "pair": "XVS_USDT",
+        "leverage": 3,
+        "max_quote_amount": "2000.0"
+    },
+    {
+        "pair": "WAVES_USDT",
+        "leverage": 3,
+        "max_quote_amount": "100000.0"
+    },
+    {
+        "pair": "PEOPLE_USDT",
+        "leverage": 3,
+        "max_quote_amount": "200000.0"
+    },
+    {
+        "pair": "SOS_USDT",
+        "leverage": 3,
+        "max_quote_amount": "2000.0"
+    },
+    {
+        "pair": "RUNE_USDT",
+        "leverage": 3,
+        "max_quote_amount": "2000.0"
+    },
+    {
+        "pair": "POLC_USDT",
+        "leverage": 3,
+        "max_quote_amount": "2000.0"
+    },
+    {
+        "pair": "SCLP_USDT",
+        "leverage": 3,
+        "max_quote_amount": "2000.0"
+    },
+    {
+        "pair": "BABYDOGE_USDT",
+        "leverage": 3,
+        "max_quote_amount": "2000.0"
+    },
+    {
+        "pair": "KONO_USDT",
+        "leverage": 3,
+        "max_quote_amount": "2000.0"
+    },
+    {
+        "pair": "SPI_USDT",
+        "leverage": 3,
+        "max_quote_amount": "2000.0"
+    },
+    {
+        "pair": "ETC_USDT",
+        "leverage": 5,
+        "max_quote_amount": "1000000.0"
+    },
+    {
+        "pair": "MDA_USDT",
+        "leverage": 3,
+        "max_quote_amount": "2000.0"
+    },
+    {
+        "pair": "MTL_USDT",
+        "leverage": 3,
+        "max_quote_amount": "2000.0"
+    },
+    {
+        "pair": "BCHA_USDT",
+        "leverage": 5,
+        "max_quote_amount": "0.0"
+    },
+    {
+        "pair": "KISHU_USDT",
+        "leverage": 3,
+        "max_quote_amount": "4000.0"
+    },
+    {
+        "pair": "SUNNY_USDT",
+        "leverage": 3,
+        "max_quote_amount": "2000.0"
+    },
+    {
+        "pair": "PYR_USDT",
+        "leverage": 3,
+        "max_quote_amount": "2000.0"
+    },
+    {
+        "pair": "XTZ_USDT",
+        "leverage": 3,
+        "max_quote_amount": "2000.0"
+    },
+    {
+        "pair": "TRIBE_USDT",
+        "leverage": 3,
+        "max_quote_amount": "2000.0"
+    },
+    {
+        "pair": "AUDIO_USDT",
+        "leverage": 3,
+        "max_quote_amount": "2000.0"
+    },
+    {
+        "pair": "FIRO_USDT",
+        "leverage": 3,
+        "max_quote_amount": "2000.0"
+    },
+    {
+        "pair": "MANA_USDT",
+        "leverage": 3,
+        "max_quote_amount": "2000.0"
+    },
+    {
+        "pair": "OKB_USDT",
+        "leverage": 5,
+        "max_quote_amount": "2000.0"
+    },
+    {
+        "pair": "DOG_USDT",
+        "leverage": 3,
+        "max_quote_amount": "2000.0"
+    },
+    {
+        "pair": "SLP_USDT",
+        "leverage": 3,
+        "max_quote_amount": "5000.0"
+    },
+    {
+        "pair": "KNC_USDT",
+        "leverage": 3,
+        "max_quote_amount": "2000.0"
+    },
+    {
+        "pair": "GAS_USDT",
+        "leverage": 3,
+        "max_quote_amount": "2000.0"
+    },
+    {
+        "pair": "LUNA_USDT",
+        "leverage": 3,
+        "max_quote_amount": "0.0"
+    },
+    {
+        "pair": "SAFEMARS_USDT",
+        "leverage": 3,
+        "max_quote_amount": "2000.0"
+    },
+    {
+        "pair": "MIR_USDT",
+        "leverage": 3,
+        "max_quote_amount": "20000.0"
+    },
+    {
+        "pair": "DAR_USDT",
+        "leverage": 3,
+        "max_quote_amount": "2000.0"
+    },
+    {
+        "pair": "EGS_USDT",
+        "leverage": 3,
+        "max_quote_amount": "2000.0"
+    },
+    {
+        "pair": "KSM_USDT",
+        "leverage": 5,
+        "max_quote_amount": "2000.0"
+    },
+    {
+        "pair": "ATP_USDT",
+        "leverage": 3,
+        "max_quote_amount": "2000.0"
+    },
+    {
+        "pair": "BIT_USDT",
+        "leverage": 3,
+        "max_quote_amount": "2000.0"
+    },
+    {
+        "pair": "STORJ_USDT",
+        "leverage": 3,
+        "max_quote_amount": "2000.0"
+    },
+    {
+        "pair": "XEM_USDT",
+        "leverage": 3,
+        "max_quote_amount": "2000.0"
+    },
+    {
+        "pair": "QTUM_USDT",
+        "leverage": 3,
+        "max_quote_amount": "2000.0"
+    },
+    {
+        "pair": "AGLD_USDT",
+        "leverage": 3,
+        "max_quote_amount": "2000.0"
+    },
+    {
+        "pair": "RVN_USDT",
+        "leverage": 3,
+        "max_quote_amount": "2000.0"
+    },
+    {
+        "pair": "OXT_USDT",
+        "leverage": 3,
+        "max_quote_amount": "2000.0"
+    },
+    {
+        "pair": "SHFT_USDT",
+        "leverage": 3,
+        "max_quote_amount": "2000.0"
+    },
+    {
+        "pair": "IOTX_USDT",
+        "leverage": 3,
+        "max_quote_amount": "2000.0"
+    },
+    {
+        "pair": "LUNC_USDT",
+        "leverage": 3,
+        "max_quote_amount": "40000.0"
+    },
+    {
+        "pair": "NEXO_USDT",
+        "leverage": 3,
+        "max_quote_amount": "2000.0"
+    },
+    {
+        "pair": "AKITA_USDT",
+        "leverage": 3,
+        "max_quote_amount": "2000.0"
+    },
+    {
+        "pair": "PERP_USDT",
+        "leverage": 3,
+        "max_quote_amount": "2000.0"
+    },
+    {
+        "pair": "ONE_USDT",
+        "leverage": 3,
+        "max_quote_amount": "2000.0"
+    },
+    {
+        "pair": "ETH_USDT",
+        "leverage": 10,
+        "max_quote_amount": "2.0E7"
+    },
+    {
+        "pair": "FLUX_USDT",
+        "leverage": 3,
+        "max_quote_amount": "5000.0"
+    },
+    {
+        "pair": "FLOKI_USDT",
+        "leverage": 3,
+        "max_quote_amount": "2000.0"
+    },
+    {
+        "pair": "STX_USDT",
+        "leverage": 3,
+        "max_quote_amount": "20000.0"
+    },
+    {
+        "pair": "ANML_USDT",
+        "leverage": 3,
+        "max_quote_amount": "2000.0"
+    },
+    {
+        "pair": "XPRT_USDT",
+        "leverage": 3,
+        "max_quote_amount": "2000.0"
+    },
+    {
+        "pair": "GALA_USDT",
+        "leverage": 3,
+        "max_quote_amount": "200000.0"
+    },
+    {
+        "pair": "GXS_USDT",
+        "leverage": 3,
+        "max_quote_amount": "0.0"
+    },
+    {
+        "pair": "TORN_USDT",
+        "leverage": 3,
+        "max_quote_amount": "2000.0"
+    },
+    {
+        "pair": "KAI_USDT",
+        "leverage": 3,
+        "max_quote_amount": "2000.0"
+    },
+    {
+        "pair": "1INCH_USDT",
+        "leverage": 3,
+        "max_quote_amount": "2000.0"
+    },
+    {
+        "pair": "CHR_USDT",
+        "leverage": 3,
+        "max_quote_amount": "2000.0"
+    },
+    {
+        "pair": "GAL_USDT",
+        "leverage": 3,
+        "max_quote_amount": "2000.0"
+    },
+    {
+        "pair": "GLMR_USDT",
+        "leverage": 3,
+        "max_quote_amount": "2000.0"
+    },
+    {
+        "pair": "CTX_USDT",
+        "leverage": 3,
+        "max_quote_amount": "2000.0"
+    },
+    {
+        "pair": "CERE_USDT",
+        "leverage": 3,
+        "max_quote_amount": "2000.0"
+    },
+    {
+        "pair": "CART_USDT",
+        "leverage": 3,
+        "max_quote_amount": "2000.0"
+    },
+    {
+        "pair": "STRAX_USDT",
+        "leverage": 3,
+        "max_quote_amount": "2000.0"
+    },
+    {
+        "pair": "MASK_USDT",
+        "leverage": 3,
+        "max_quote_amount": "2000.0"
+    },
+    {
+        "pair": "MKR_USDT",
+        "leverage": 3,
+        "max_quote_amount": "2000.0"
+    },
+    {
+        "pair": "AVAX_USDT",
+        "leverage": 3,
+        "max_quote_amount": "200000.0"
+    },
+    {
+        "pair": "ENJ_USDT",
+        "leverage": 3,
+        "max_quote_amount": "2000.0"
+    },
+    {
+        "pair": "YAM_USDT",
+        "leverage": 3,
+        "max_quote_amount": "2000.0"
+    },
+    {
+        "pair": "ALPACA_USDT",
+        "leverage": 3,
+        "max_quote_amount": "2000.0"
+    },
+    {
+        "pair": "DODO_USDT",
+        "leverage": 3,
+        "max_quote_amount": "2000.0"
+    },
+    {
+        "pair": "MFT_USDT",
+        "leverage": 3,
+        "max_quote_amount": "2000.0"
+    },
+    {
+        "pair": "CAKE_USDT",
+        "leverage": 3,
+        "max_quote_amount": "2000.0"
+    },
+    {
+        "pair": "RNDR_USDT",
+        "leverage": 3,
+        "max_quote_amount": "5000.0"
+    },
+    {
+        "pair": "CTSI_USDT",
+        "leverage": 3,
+        "max_quote_amount": "2000.0"
+    },
+    {
+        "pair": "GRIN_USDT",
+        "leverage": 3,
+        "max_quote_amount": "2000.0"
+    },
+    {
+        "pair": "MXC_USDT",
+        "leverage": 3,
+        "max_quote_amount": "40000.0"
+    },
+    {
+        "pair": "ONT_USDT",
+        "leverage": 3,
+        "max_quote_amount": "2000.0"
+    },
+    {
+        "pair": "ANKR_USDT",
+        "leverage": 3,
+        "max_quote_amount": "2000.0"
+    },
+    {
+        "pair": "SLIM_USDT",
+        "leverage": 3,
+        "max_quote_amount": "2000.0"
+    },
+    {
+        "pair": "FIL_USDT",
+        "leverage": 5,
+        "max_quote_amount": "1000000.0"
+    },
+    {
+        "pair": "CTK_USDT",
+        "leverage": 3,
+        "max_quote_amount": "2000.0"
+    },
+    {
+        "pair": "ASR_USDT",
+        "leverage": 3,
+        "max_quote_amount": "2000.0"
+    },
+    {
+        "pair": "FEG_USDT",
+        "leverage": 3,
+        "max_quote_amount": "2000.0"
+    },
+    {
+        "pair": "SERO_USDT",
+        "leverage": 3,
+        "max_quote_amount": "2000.0"
+    },
+    {
+        "pair": "RSS3_USDT",
+        "leverage": 3,
+        "max_quote_amount": "2000.0"
+    },
+    {
+        "pair": "IRIS_USDT",
+        "leverage": 3,
+        "max_quote_amount": "2000.0"
+    },
+    {
+        "pair": "XCH_USDT",
+        "leverage": 3,
+        "max_quote_amount": "2000.0"
+    },
+    {
+        "pair": "ZRX_USDT",
+        "leverage": 3,
+        "max_quote_amount": "2000.0"
+    },
+    {
+        "pair": "BAND_USDT",
+        "leverage": 3,
+        "max_quote_amount": "2000.0"
+    },
+    {
+        "pair": "BADGER_USDT",
+        "leverage": 3,
+        "max_quote_amount": "2000.0"
+    },
+    {
+        "pair": "DAO_USDT",
+        "leverage": 3,
+        "max_quote_amount": "2000.0"
+    },
+    {
+        "pair": "EPS_USDT",
+        "leverage": 3,
+        "max_quote_amount": "0.0"
+    },
+    {
+        "pair": "THETA_USDT",
+        "leverage": 3,
+        "max_quote_amount": "2000.0"
+    },
+    {
+        "pair": "BAKE_USDT",
+        "leverage": 3,
+        "max_quote_amount": "2000.0"
+    },
+    {
+        "pair": "SHIB_USDT",
+        "leverage": 3,
+        "max_quote_amount": "400000.0"
+    },
+    {
+        "pair": "MBOX_USDT",
+        "leverage": 3,
+        "max_quote_amount": "2000.0"
+    },
+    {
+        "pair": "NBS_USDT",
+        "leverage": 3,
+        "max_quote_amount": "2000.0"
+    },
+    {
+        "pair": "SNT_USDT",
+        "leverage": 3,
+        "max_quote_amount": "2000.0"
+    },
+    {
+        "pair": "DREP_USDT",
+        "leverage": 3,
+        "max_quote_amount": "2000.0"
+    },
+    {
+        "pair": "NFT_USDT",
+        "leverage": 3,
+        "max_quote_amount": "2000.0"
+    },
+    {
+        "pair": "AUCTION_USDT",
+        "leverage": 3,
+        "max_quote_amount": "2000.0"
+    },
+    {
+        "pair": "BOSON_USDT",
+        "leverage": 3,
+        "max_quote_amount": "2000.0"
+    },
+    {
+        "pair": "O3_USDT",
+        "leverage": 3,
+        "max_quote_amount": "2000.0"
+    },
+    {
+        "pair": "NULS_USDT",
+        "leverage": 3,
+        "max_quote_amount": "2000.0"
+    },
+    {
+        "pair": "OMG_USDT",
+        "leverage": 3,
+        "max_quote_amount": "2000.0"
+    },
+    {
+        "pair": "PEARL_USDT",
+        "leverage": 3,
+        "max_quote_amount": "2000.0"
+    },
+    {
+        "pair": "HAPI_USDT",
+        "leverage": 3,
+        "max_quote_amount": "2000.0"
+    },
+    {
+        "pair": "STG_USDT",
+        "leverage": 3,
+        "max_quote_amount": "40000.0"
+    },
+    {
+        "pair": "IDV_USDT",
+        "leverage": 3,
+        "max_quote_amount": "2000.0"
+    },
+    {
+        "pair": "HORD_USDT",
+        "leverage": 3,
+        "max_quote_amount": "2000.0"
+    },
+    {
+        "pair": "ZIL_USDT",
+        "leverage": 3,
+        "max_quote_amount": "2000.0"
+    },
+    {
+        "pair": "SUPER_USDT",
+        "leverage": 3,
+        "max_quote_amount": "2000.0"
+    },
+    {
+        "pair": "DENT_USDT",
+        "leverage": 3,
+        "max_quote_amount": "2000.0"
+    },
+    {
+        "pair": "REN_USDT",
+        "leverage": 3,
+        "max_quote_amount": "2000.0"
+    },
+    {
+        "pair": "RAI_USDT",
+        "leverage": 3,
+        "max_quote_amount": "2000.0"
+    },
+    {
+        "pair": "ZEN_USDT",
+        "leverage": 3,
+        "max_quote_amount": "2000.0"
+    },
+    {
+        "pair": "ALGO_USDT",
+        "leverage": 3,
+        "max_quote_amount": "2000.0"
+    },
+    {
+        "pair": "BLZ_USDT",
+        "leverage": 3,
+        "max_quote_amount": "0.0"
+    },
+    {
+        "pair": "BOR_USDT",
+        "leverage": 3,
+        "max_quote_amount": "0.0"
+    },
+    {
+        "pair": "SC_USDT",
+        "leverage": 3,
+        "max_quote_amount": "2000.0"
+    },
+    {
+        "pair": "HEGIC_USDT",
+        "leverage": 3,
+        "max_quote_amount": "2000.0"
+    },
+    {
+        "pair": "MOB_USDT",
+        "leverage": 3,
+        "max_quote_amount": "2000.0"
+    },
+    {
+        "pair": "DORA_USDT",
+        "leverage": 3,
+        "max_quote_amount": "2000.0"
+    },
+    {
+        "pair": "FOR_USDT",
+        "leverage": 3,
+        "max_quote_amount": "2000.0"
+    },
+    {
+        "pair": "FLOW_USDT",
+        "leverage": 3,
+        "max_quote_amount": "100000.0"
+    },
+    {
+        "pair": "RARI_USDT",
+        "leverage": 3,
+        "max_quote_amount": "2000.0"
+    },
+    {
+        "pair": "DYDX_USDT",
+        "leverage": 3,
+        "max_quote_amount": "5000.0"
+    },
+    {
+        "pair": "ATLAS_USDT",
+        "leverage": 3,
+        "max_quote_amount": "2000.0"
+    },
+    {
+        "pair": "GST_USDT",
+        "leverage": 3,
+        "max_quote_amount": "5000.0"
+    },
+    {
+        "pair": "REEF_USDT",
+        "leverage": 3,
+        "max_quote_amount": "2000.0"
+    },
+    {
+        "pair": "HT_USDT",
+        "leverage": 5,
+        "max_quote_amount": "2000.0"
+    },
+    {
+        "pair": "XYO_USDT",
+        "leverage": 3,
+        "max_quote_amount": "2000.0"
+    },
+    {
+        "pair": "CHESS_USDT",
+        "leverage": 3,
+        "max_quote_amount": "2000.0"
+    },
+    {
+        "pair": "BAT_USDT",
+        "leverage": 3,
+        "max_quote_amount": "2000.0"
+    },
+    {
+        "pair": "NYM_USDT",
+        "leverage": 3,
+        "max_quote_amount": "2000.0"
+    },
+    {
+        "pair": "RAMP_USDT",
+        "leverage": 3,
+        "max_quote_amount": "0.0"
+    },
+    {
+        "pair": "USDC_USDT",
+        "leverage": 3,
+        "max_quote_amount": "0.0"
+    },
+    {
+        "pair": "ICP_USDT",
+        "leverage": 3,
+        "max_quote_amount": "40000.0"
+    },
+    {
+        "pair": "EPK_USDT",
+        "leverage": 3,
+        "max_quote_amount": "2000.0"
+    },
+    {
+        "pair": "EXRD_USDT",
+        "leverage": 3,
+        "max_quote_amount": "0.0"
+    },
+    {
+        "pair": "DOT_USDT",
+        "leverage": 10,
+        "max_quote_amount": "1000000.0"
+    },
+    {
+        "pair": "COOK_USDT",
+        "leverage": 3,
+        "max_quote_amount": "2000.0"
+    },
+    {
+        "pair": "CKB_USDT",
+        "leverage": 3,
+        "max_quote_amount": "2000.0"
+    },
+    {
+        "pair": "YGG_USDT",
+        "leverage": 3,
+        "max_quote_amount": "2000.0"
+    },
+    {
+        "pair": "CRU_USDT",
+        "leverage": 3,
+        "max_quote_amount": "2000.0"
+    },
+    {
+        "pair": "ANC_USDT",
+        "leverage": 3,
+        "max_quote_amount": "20000.0"
+    },
+    {
+        "pair": "FIS_USDT",
+        "leverage": 3,
+        "max_quote_amount": "2000.0"
+    },
+    {
+        "pair": "ALCX_USDT",
+        "leverage": 3,
+        "max_quote_amount": "2000.0"
+    },
+    {
+        "pair": "HIGH_USDT",
+        "leverage": 3,
+        "max_quote_amount": "2000.0"
+    },
+    {
+        "pair": "BEAM_USDT",
+        "leverage": 3,
+        "max_quote_amount": "2000.0"
+    },
+    {
+        "pair": "BSW_USDT",
+        "leverage": 3,
+        "max_quote_amount": "2000.0"
+    },
+    {
+        "pair": "STAR_USDT",
+        "leverage": 3,
+        "max_quote_amount": "2000.0"
+    },
+    {
+        "pair": "ROSE_USDT",
+        "leverage": 3,
+        "max_quote_amount": "2000.0"
+    },
+    {
+        "pair": "CNNS_USDT",
+        "leverage": 3,
+        "max_quote_amount": "0.0"
+    },
+    {
+        "pair": "BZRX_USDT",
+        "leverage": 3,
+        "max_quote_amount": "0.0"
+    },
+    {
+        "pair": "WOO_USDT",
+        "leverage": 3,
+        "max_quote_amount": "2000.0"
+    },
+    {
+        "pair": "SAFEMOON_USDT",
+        "leverage": 3,
+        "max_quote_amount": "0.0"
+    },
+    {
+        "pair": "VTHO_USDT",
+        "leverage": 3,
+        "max_quote_amount": "2000.0"
+    },
+    {
+        "pair": "OM_USDT",
+        "leverage": 3,
+        "max_quote_amount": "2000.0"
+    },
+    {
+        "pair": "LAMB_USDT",
+        "leverage": 3,
+        "max_quote_amount": "2000.0"
+    },
+    {
+        "pair": "CHZ_USDT",
+        "leverage": 3,
+        "max_quote_amount": "160000.0"
+    },
+    {
+        "pair": "AIOZ_USDT",
+        "leverage": 3,
+        "max_quote_amount": "2000.0"
+    },
+    {
+        "pair": "EDEN_USDT",
+        "leverage": 3,
+        "max_quote_amount": "2000.0"
+    },
+    {
+        "pair": "POND_USDT",
+        "leverage": 3,
+        "max_quote_amount": "2000.0"
+    },
+    {
+        "pair": "ATOM_USDT",
+        "leverage": 5,
+        "max_quote_amount": "200000.0"
+    },
+    {
+        "pair": "UNFI_USDT",
+        "leverage": 3,
+        "max_quote_amount": "2000.0"
+    },
+    {
+        "pair": "FORTH_USDT",
+        "leverage": 3,
+        "max_quote_amount": "2000.0"
+    },
+    {
+        "pair": "MLN_USDT",
+        "leverage": 3,
+        "max_quote_amount": "2000.0"
+    },
+    {
+        "pair": "NEO_USDT",
+        "leverage": 3,
+        "max_quote_amount": "2000.0"
+    },
+    {
+        "pair": "MOVR_USDT",
+        "leverage": 3,
+        "max_quote_amount": "2000.0"
+    },
+    {
+        "pair": "RLC_USDT",
+        "leverage": 3,
+        "max_quote_amount": "2000.0"
+    },
+    {
+        "pair": "FXS_USDT",
+        "leverage": 3,
+        "max_quote_amount": "2000.0"
+    },
+    {
+        "pair": "ENS_USDT",
+        "leverage": 3,
+        "max_quote_amount": "2000.0"
+    },
+    {
+        "pair": "ATA_USDT",
+        "leverage": 3,
+        "max_quote_amount": "2000.0"
+    },
+    {
+        "pair": "XPR_USDT",
+        "leverage": 3,
+        "max_quote_amount": "2000.0"
+    },
+    {
+        "pair": "NEST_USDT",
+        "leverage": 3,
+        "max_quote_amount": "2000.0"
+    },
+    {
+        "pair": "XLM_USDT",
+        "leverage": 3,
+        "max_quote_amount": "2000.0"
+    },
+    {
+        "pair": "AUTO_USDT",
+        "leverage": 3,
+        "max_quote_amount": "2000.0"
+    },
+    {
+        "pair": "SNX_USDT",
+        "leverage": 3,
+        "max_quote_amount": "2000.0"
+    },
+    {
+        "pair": "OCN_USDT",
+        "leverage": 3,
+        "max_quote_amount": "0.0"
+    },
+    {
+        "pair": "RSR_USDT",
+        "leverage": 3,
+        "max_quote_amount": "2000.0"
+    },
+    {
+        "pair": "MITH_USDT",
+        "leverage": 3,
+        "max_quote_amount": "2000.0"
+    },
+    {
+        "pair": "KAR_USDT",
+        "leverage": 3,
+        "max_quote_amount": "2000.0"
+    },
+    {
+        "pair": "INJ_USDT",
+        "leverage": 3,
+        "max_quote_amount": "2000.0"
+    },
+    {
+        "pair": "PLA_USDT",
+        "leverage": 3,
+        "max_quote_amount": "2000.0"
+    },
+    {
+        "pair": "CYS_USDT",
+        "leverage": 3,
+        "max_quote_amount": "2000.0"
+    },
+    {
+        "pair": "WAXP_USDT",
+        "leverage": 3,
+        "max_quote_amount": "2000.0"
+    },
+    {
+        "pair": "VOXEL_USDT",
+        "leverage": 3,
+        "max_quote_amount": "2000.0"
+    },
+    {
+        "pair": "CRV_USDT",
+        "leverage": 3,
+        "max_quote_amount": "200000.0"
+    },
+    {
+        "pair": "FITFI_USDT",
+        "leverage": 3,
+        "max_quote_amount": "40000.0"
+    },
+    {
+        "pair": "WHALE_USDT",
+        "leverage": 3,
+        "max_quote_amount": "2000.0"
+    },
+    {
+        "pair": "WRX_USDT",
+        "leverage": 3,
+        "max_quote_amount": "2000.0"
+    },
+    {
+        "pair": "TIDAL_USDT",
+        "leverage": 3,
+        "max_quote_amount": "2000.0"
+    },
+    {
+        "pair": "C98_USDT",
+        "leverage": 3,
+        "max_quote_amount": "2000.0"
+    },
+    {
+        "pair": "HNT_USDT",
+        "leverage": 3,
+        "max_quote_amount": "5000.0"
+    },
+    {
+        "pair": "TONCOIN_USDT",
+        "leverage": 3,
+        "max_quote_amount": "2000.0"
+    },
+    {
+        "pair": "DOGGY_USDT",
+        "leverage": 3,
+        "max_quote_amount": "2000.0"
+    },
+    {
+        "pair": "SYS_USDT",
+        "leverage": 3,
+        "max_quote_amount": "2000.0"
+    },
+    {
+        "pair": "NPXS_USDT",
+        "leverage": 3,
+        "max_quote_amount": "0.0"
+    },
+    {
+        "pair": "CRO_USDT",
+        "leverage": 3,
+        "max_quote_amount": "5000.0"
+    },
+    {
+        "pair": "LEMD_USDT",
+        "leverage": 3,
+        "max_quote_amount": "2000.0"
+    },
+    {
+        "pair": "RAY_USDT",
+        "leverage": 3,
+        "max_quote_amount": "2000.0"
+    },
+    {
+        "pair": "PERL_USDT",
+        "leverage": 3,
+        "max_quote_amount": "2000.0"
+    },
+    {
+        "pair": "CQT_USDT",
+        "leverage": 3,
+        "max_quote_amount": "2000.0"
+    },
+    {
+        "pair": "CFX_USDT",
+        "leverage": 3,
+        "max_quote_amount": "2000.0"
+    },
+    {
+        "pair": "TOMO_USDT",
+        "leverage": 3,
+        "max_quote_amount": "2000.0"
+    },
+    {
+        "pair": "ACA_USDT",
+        "leverage": 3,
+        "max_quote_amount": "2000.0"
+    },
+    {
+        "pair": "SDN_USDT",
+        "leverage": 3,
+        "max_quote_amount": "2000.0"
+    },
+    {
+        "pair": "OKT_USDT",
+        "leverage": 3,
+        "max_quote_amount": "2000.0"
+    },
+    {
+        "pair": "WILD_USDT",
+        "leverage": 3,
+        "max_quote_amount": "2000.0"
+    },
+    {
+        "pair": "BNX_USDT",
+        "leverage": 3,
+        "max_quote_amount": "2000.0"
+    },
+    {
+        "pair": "TRU_USDT",
+        "leverage": 3,
+        "max_quote_amount": "2000.0"
+    },
+    {
+        "pair": "RACA_USDT",
+        "leverage": 3,
+        "max_quote_amount": "100000.0"
+    },
+    {
+        "pair": "ACH_USDT",
+        "leverage": 3,
+        "max_quote_amount": "2000.0"
+    },
+    {
+        "pair": "AKRO_USDT",
+        "leverage": 3,
+        "max_quote_amount": "2000.0"
+    },
+    {
+        "pair": "BTM_USDT",
+        "leverage": 3,
+        "max_quote_amount": "2000.0"
+    },
+    {
+        "pair": "TKO_USDT",
+        "leverage": 3,
+        "max_quote_amount": "2000.0"
+    },
+    {
+        "pair": "GT_USDT",
+        "leverage": 3,
+        "max_quote_amount": "5000.0"
+    },
+    {
+        "pair": "OCEAN_USDT",
+        "leverage": 3,
+        "max_quote_amount": "2000.0"
+    },
+    {
+        "pair": "WNCG_USDT",
+        "leverage": 3,
+        "max_quote_amount": "2000.0"
+    },
+    {
+        "pair": "BSV_USDT",
+        "leverage": 5,
+        "max_quote_amount": "2000.0"
+    },
+    {
+        "pair": "GHST_USDT",
+        "leverage": 3,
+        "max_quote_amount": "2000.0"
+    },
+    {
+        "pair": "CELR_USDT",
+        "leverage": 3,
+        "max_quote_amount": "0.0"
+    },
+    {
+        "pair": "LINA_USDT",
+        "leverage": 3,
+        "max_quote_amount": "2000.0"
+    },
+    {
+        "pair": "SAND_USDT",
+        "leverage": 3,
+        "max_quote_amount": "200000.0"
+    },
+    {
+        "pair": "APE_USDT",
+        "leverage": 3,
+        "max_quote_amount": "2000.0"
+    },
+    {
+        "pair": "WICC_USDT",
+        "leverage": 3,
+        "max_quote_amount": "2000.0"
+    },
+    {
+        "pair": "FIDA_USDT",
+        "leverage": 3,
+        "max_quote_amount": "2000.0"
+    },
+    {
+        "pair": "ADA_USDT",
+        "leverage": 3,
+        "max_quote_amount": "240000.0"
+    },
+    {
+        "pair": "PROPS_USDT",
+        "leverage": 3,
+        "max_quote_amount": "0.0"
+    },
+    {
+        "pair": "METIS_USDT",
+        "leverage": 3,
+        "max_quote_amount": "2000.0"
+    },
+    {
+        "pair": "KAVA_USDT",
+        "leverage": 3,
+        "max_quote_amount": "2000.0"
+    },
+    {
+        "pair": "AERGO_USDT",
+        "leverage": 3,
+        "max_quote_amount": "2000.0"
+    },
+    {
+        "pair": "CONV_USDT",
+        "leverage": 3,
+        "max_quote_amount": "2000.0"
+    },
+    {
+        "pair": "TFUEL_USDT",
+        "leverage": 3,
+        "max_quote_amount": "0.0"
+    },
+    {
+        "pair": "FRONT_USDT",
+        "leverage": 3,
+        "max_quote_amount": "2000.0"
+    },
+    {
+        "pair": "API3_USDT",
+        "leverage": 3,
+        "max_quote_amount": "2000.0"
+    },
+    {
+        "pair": "FARM_USDT",
+        "leverage": 3,
+        "max_quote_amount": "2000.0"
+    },
+    {
+        "pair": "AE_USDT",
+        "leverage": 3,
+        "max_quote_amount": "2000.0"
+    },
+    {
+        "pair": "LRC_USDT",
+        "leverage": 3,
+        "max_quote_amount": "2000.0"
+    },
+    {
+        "pair": "IOTA_USDT",
+        "leverage": 3,
+        "max_quote_amount": "2000.0"
+    },
+    {
+        "pair": "RFOX_USDT",
+        "leverage": 3,
+        "max_quote_amount": "2000.0"
+    },
+    {
+        "pair": "PHA_USDT",
+        "leverage": 3,
+        "max_quote_amount": "2000.0"
+    },
+    {
+        "pair": "XCN_USDT",
+        "leverage": 3,
+        "max_quote_amount": "5000.0"
+    },
+    {
+        "pair": "NAS_USDT",
+        "leverage": 3,
+        "max_quote_amount": "2000.0"
+    },
+    {
+        "pair": "KEEP_USDT",
+        "leverage": 3,
+        "max_quote_amount": "0.0"
+    },
+    {
+        "pair": "VIDY_USDT",
+        "leverage": 3,
+        "max_quote_amount": "2000.0"
+    },
+    {
+        "pair": "HOT_USDT",
+        "leverage": 3,
+        "max_quote_amount": "2000.0"
+    },
+    {
+        "pair": "MINA_USDT",
+        "leverage": 3,
+        "max_quote_amount": "2000.0"
+    },
+    {
+        "pair": "ALICE_USDT",
+        "leverage": 3,
+        "max_quote_amount": "2000.0"
+    },
+    {
+        "pair": "HAI_USDT",
+        "leverage": 3,
+        "max_quote_amount": "2000.0"
+    },
+    {
+        "pair": "BTC_USDT",
+        "leverage": 10,
+        "max_quote_amount": "2.0E7"
+    },
+    {
+        "pair": "LTC_USDT",
+        "leverage": 10,
+        "max_quote_amount": "2000000.0"
+    },
+    {
+        "pair": "LTO_USDT",
+        "leverage": 3,
+        "max_quote_amount": "2000.0"
+    },
+    {
+        "pair": "DC_USDT",
+        "leverage": 3,
+        "max_quote_amount": "40000.0"
+    },
+    {
+        "pair": "NU_USDT",
+        "leverage": 3,
+        "max_quote_amount": "0.0"
+    },
+    {
+        "pair": "IOST_USDT",
+        "leverage": 3,
+        "max_quote_amount": "2000.0"
+    },
+    {
+        "pair": "RAD_USDT",
+        "leverage": 3,
+        "max_quote_amount": "2000.0"
+    },
+    {
+        "pair": "POLS_USDT",
+        "leverage": 3,
+        "max_quote_amount": "2000.0"
+    },
+    {
+        "pair": "OP_USDT",
+        "leverage": 3,
+        "max_quote_amount": "40000.0"
+    },
+    {
+        "pair": "WXT_USDT",
+        "leverage": 3,
+        "max_quote_amount": "2000.0"
+    },
+    {
+        "pair": "STR_USDT",
+        "leverage": 3,
+        "max_quote_amount": "2000.0"
+    },
+    {
+        "pair": "YIELD_USDT",
+        "leverage": 3,
+        "max_quote_amount": "2000.0"
+    },
+    {
+        "pair": "GM_USDT",
+        "leverage": 3,
+        "max_quote_amount": "2000.0"
+    },
+    {
+        "pair": "SPA_USDT",
+        "leverage": 3,
+        "max_quote_amount": "2000.0"
+    },
+    {
+        "pair": "BTCST_USDT",
+        "leverage": 3,
+        "max_quote_amount": "2000.0"
+    },
+    {
+        "pair": "WEMIX_USDT",
+        "leverage": 3,
+        "max_quote_amount": "2000.0"
+    },
+    {
+        "pair": "CLV_USDT",
+        "leverage": 3,
+        "max_quote_amount": "2000.0"
+    },
+    {
+        "pair": "ICX_USDT",
+        "leverage": 3,
+        "max_quote_amount": "2000.0"
+    },
+    {
+        "pair": "PET_USDT",
+        "leverage": 3,
+        "max_quote_amount": "2000.0"
+    },
+    {
+        "pair": "STARL_USDT",
+        "leverage": 3,
+        "max_quote_amount": "2000.0"
+    },
+    {
+        "pair": "HBAR_USDT",
+        "leverage": 3,
+        "max_quote_amount": "0.0"
+    },
+    {
+        "pair": "BTT_USDT",
+        "leverage": 3,
+        "max_quote_amount": "0.0"
+    },
+    {
+        "pair": "LINK_USDT",
+        "leverage": 5,
+        "max_quote_amount": "1000000.0"
+    },
+    {
+        "pair": "TLM_USDT",
+        "leverage": 3,
+        "max_quote_amount": "2000.0"
+    },
+    {
+        "pair": "ARES_USDT",
+        "leverage": 3,
+        "max_quote_amount": "2000.0"
+    },
+    {
+        "pair": "GTC_USDT",
+        "leverage": 3,
+        "max_quote_amount": "0.0"
+    },
+    {
+        "pair": "SUSHI_USDT",
+        "leverage": 5,
+        "max_quote_amount": "2000.0"
+    },
+    {
+        "pair": "KEY_USDT",
+        "leverage": 3,
+        "max_quote_amount": "2000.0"
+    },
+    {
+        "pair": "ALN_USDT",
+        "leverage": 3,
+        "max_quote_amount": "2000.0"
+    },
+    {
+        "pair": "KDA_USDT",
+        "leverage": 3,
+        "max_quote_amount": "5000.0"
+    },
+    {
+        "pair": "DVI_USDT",
+        "leverage": 3,
+        "max_quote_amount": "2000.0"
+    },
+    {
+        "pair": "SXP_USDT",
+        "leverage": 3,
+        "max_quote_amount": "2000.0"
+    },
+    {
+        "pair": "MAPS_USDT",
+        "leverage": 3,
+        "max_quote_amount": "2000.0"
+    },
+    {
+        "pair": "BCD_USDT",
+        "leverage": 3,
+        "max_quote_amount": "2000.0"
+    },
+    {
+        "pair": "SRM_USDT",
+        "leverage": 3,
+        "max_quote_amount": "5000.0"
+    },
+    {
+        "pair": "WIN_USDT",
+        "leverage": 3,
+        "max_quote_amount": "5000.0"
+    },
+    {
+        "pair": "ZEC_USDT",
+        "leverage": 3,
+        "max_quote_amount": "2000.0"
+    },
+    {
+        "pair": "JASMY_USDT",
+        "leverage": 3,
+        "max_quote_amount": "200000.0"
+    }
+]

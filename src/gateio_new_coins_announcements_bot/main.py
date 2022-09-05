@@ -318,6 +318,8 @@ def sell():
                 stored_price = float(order[coin]["_price"])
                 symbol = order[coin]["_fee_currency"]
 
+                account_type = order[coin]["_account"]
+
                 # avoid div by zero error
                 if float(stored_price) == 0:
                     continue
@@ -392,6 +394,8 @@ def sell():
                                 float(sell_volume_adjusted) * float(last_price),
                                 "sell",
                                 last_price,
+                                account_type=account_type
+
                             )
                             logger.info("Finish sell place_order")
 
