@@ -1,3 +1,4 @@
+import json
 from datetime import datetime
 
 from gate_api import ApiClient
@@ -6,7 +7,8 @@ from gate_api import SpotApi
 from gate_api import MarginApi
 
 from gateio_new_coins_announcements_bot.auth.gateio_auth import load_gateio_creds
-from gateio_new_coins_announcements_bot.logger import logger
+from kgateio_new_coins_announcements_bot.logger import logger
+from gateio_new_coins_announcements_bot.new_listings_scraper import get_all_cross_margin_pairs_leverage
 
 client = load_gateio_creds("auth/auth.yml")
 spot_api = SpotApi(ApiClient(client))
@@ -57,13 +59,56 @@ def get_min_amount(base, quote):
         return min_amount
 
 
-def place_order(base, quote, amount, side, last_price,cross_margin=False):
+def get_core_cross_margin_data(base='', quote='USDT', data_list=[]):
+    for data_dict in data_list:
+        if data_dict:
+            if data_dict['pair'] == f"{base}_{quote}":
+                return data_dict['leverage'], data_dict['max_quote_amount']
+    return False, False
+
+
+def get_cross_margin_data(base='', quote='USDT'):
+    leverage, max_quote_amount = False, False
+    try:
+        data_file_name = "cross_margin_currency_leverage_with_pairing_{0}.json".format(quote)
+        with open(data_file_name) as json_file:
+            leverage, max_quote_amount = get_core_cross_margin_data(base='', quote='USDT',
+                                                                    data_list=json.load(json_file))
+            # for data_dict in json.load(json_file):
+            #     if data_dict:
+            #         if data_dict['pair'] == f"{base}_{quote}":
+            #             return data_dict['leverage'], data_dict['max_quote_amount']
+
+            if not leverage and not max_quote_amount:
+                leverage, max_quote_amount = get_core_cross_margin_data(base='', quote='USDT',
+                                                                        data_list=get_all_cross_margin_pairs_leverage(
+                                                                            quote=quote))
+            return leverage, max_quote_amount
+            # else:
+            #     for data_dict in get_all_cross_margin_pairs_leverage(quote=quote):
+            #         if data_dict:
+            #             if data_dict['pair'] == f"{base}_{quote}":
+            #                 return data_dict['leverage'], data_dict['max_quote_amount']
+    except Exception as e:
+        logger.error(e)
+        return False, False
+
+
+def get_cross_margin_amount(base='', quote='USDT', amount=None, last_price=None):
+    leverage, max_quote_amount = get_cross_margin_data(base=base, quote=quote)
+    # core_amount = float(amount) / float(last_price)
+    borrow_amount = (leverage - 1) * float(amount)
+    borrow_amount = max_quote_amount if borrow_amount > float(max_quote_amount) else borrow_amount
+    return (float(amount)+borrow_amount)/float(last_price)
+
+
+def place_order(base, quote, amount, side, last_price, account_type=''):
     """
     Args:
     'DOT', 'USDT', 50, 'buy', 400
     """
     try:
-        if not cross_margin:
+        if account_type == 'spot':
             order = Order(
                 amount=str(float(amount) / float(last_price)),
                 price=last_price,
@@ -72,18 +117,36 @@ def place_order(base, quote, amount, side, last_price,cross_margin=False):
                 time_in_force="ioc"
             )
             order = spot_api.create_order(order)
-        elif cross_margin: # if we have an opportunity to  create  a cross margin  order to current coin pair
-            order = Order(
-                amount=str(float(amount) / float(last_price)),
-                price=last_price,
-                side=side,
-                currency_pair=f"{base}_{quote}",
-                time_in_force="ioc",
-                type='limit',
-                account='cross_margin',
-                auto_borrow=True,
-                auto_repay=True
-            )
+        elif account_type == 'cross_margin':  # if we have an opportunity to  create  a cross margin  order to current coin pair
+            if side == 'buy':
+                order = Order(
+                    # amount=str(float(amount) / float(last_price)),
+                    amount=get_cross_margin_amount(base=base, quote=quote,
+                                                   amount=float(amount), last_price=float(last_price)),
+                    price=last_price,
+                    side='buy',
+                    currency_pair=f"{base}_{quote}",
+                    time_in_force="ioc",
+                    type='limit',
+                    account='cross_margin',
+                    auto_borrow=True,
+                    auto_repay=False
+                )
+            if side == 'sell':
+                order = Order(
+                    # amount=str(float(amount) / float(last_price)),
+                    amount=get_cross_margin_amount(base=base, quote=quote,
+                                                   amount=float(amount), last_price=float(last_price)),
+                    price=last_price,
+                    side='sell',
+                    currency_pair=f"{base}_{quote}",
+                    time_in_force="ioc",
+                    type='limit',
+                    account='cross_margin',
+                    auto_borrow=False,
+                    auto_repay=True
+                )
+
             order = margin_api.create_cross_margin_loan(order)
 
         t = order

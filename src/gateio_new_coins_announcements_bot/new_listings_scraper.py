@@ -249,7 +249,7 @@ def get_all_cross_margin_currencies(single=False):
         logger.info("while loop in get_all_cross_margin_currencies has stopped.")
 
 
-def get_all_cross_margin_pairs_leverage(single=False, pairing='USDT'):
+def get_all_cross_margin_pairs_leverage(single=False, quote='USDT'):
     """
     Get a list of leverages  for all cross margin currencies  pairs  with pairing (by default USDT) supported on gate io
     :return:
@@ -260,9 +260,15 @@ def get_all_cross_margin_pairs_leverage(single=False, pairing='USDT'):
         logger.info(
             "Getting the list of leverages for all cross margin currencies  pairs  with pairing (by default USDT) supported on gate io")
         margin_currency_pairs = ast.literal_eval(str(margin_api.list_margin_currency_pairs()))
-        cross_margin_currency_leverage = ['{0} {1}'.format(pair['id'], pair['leverage']) for pair in
-                                          margin_currency_pairs if pair['id'].split('_')[1] == pairing]
-        out_file_name = "cross_margin_currency_leverage_with_pairing_{0}.json".format(pairing)
+        cross_margin_currency_leverage = [{'pair': pair['id'],
+                                           'leverage': pair['leverage'],
+                                           # Maximum borrowable amount for quote currency (USDT in our case).
+                                           # Base currency limit is calculated by quote maximum and market price.
+                                           # `null` means no limit
+                                           'max_quote_amount': pair['max_quote_amount']
+                                           } for pair in
+                                          margin_currency_pairs if pair['id'].split('_')[1] == quote]
+        out_file_name = "cross_margin_currency_leverage_with_pairing_{0}.json".format(quote)
         with open(out_file_name, "w") as f:
             json.dump(cross_margin_currency_leverage, f, indent=4)
             logger.info(
@@ -281,11 +287,6 @@ def get_all_cross_margin_pairs_leverage(single=False, pairing='USDT'):
                     break
     else:
         logger.info("while loop in get_all_cross_margin_pairs_leverage.")
-
-
-
-
-
 
 
 def load_old_coins():
